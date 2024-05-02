@@ -1,0 +1,150 @@
+body{
+  background-color: rgb(0, 217, 255);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.search{
+  height: 90%;
+  background-color: rgba(193, 215, 221, 0.85);
+  border: cornsilk 2px solid;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 10px;
+  h1{
+    margin-top: 10%;
+    color: rgb(66, 66, 219);
+    font-size: 90px;
+  }
+  h2{
+    margin-top: 5%;
+    color: rgb(43, 43, 161);
+    font-size: 32px;
+  }
+  h4{
+    margin-top: 5%;
+    color: rgb(13, 13, 61);
+    font-size: 30px;
+  }
+  input{
+    margin: 4% 15px;
+    width: 50%;
+    height: 50px;
+    border: cornsilk 2px solid;
+    border-radius: 10px;
+    background-color: #9292d9;
+    color:rgb(13, 13, 61);
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  button{
+    margin-bottom: 5%;
+    width: 150px;
+    height: 50px;
+    border: cornsilk 2px solid;
+    border-radius: 10px;
+    background-color: rgb(73, 210, 73);
+    color:blueviolet;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+    // &:hover{
+    //   color:red;
+    // }
+  }
+}
+
+.weather{
+  display: none;
+  height: 90%;
+  position: relative;
+  background-color: rgba(106, 103, 103, 0.7);
+  border: cornsilk 2px solid;
+  border-radius: 10px;
+  text-align: center;
+  #time{
+    font-size: 55px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #163644
+  }
+  #city{
+    font-size: 85px;
+    margin-top: 10px;
+    color: #250979;
+    margin-bottom: 0px;
+  }
+  #generalPnj{
+    position: relative;
+    top: -35px;
+    margin-bottom: 0;
+    padding: 0;
+    width: 300px;
+  }
+  #weatherStan{
+    position: relative;
+    margin: 0;
+    top: -100px;
+    text-align: center;
+    font-size: 40px;
+    color:#130639;
+    text-transform: uppercase;
+    font-style: initial;
+  }
+  #temp{
+    margin: 40px 0 10px;
+    text-align: center;
+    font-size: 115px;
+    color:#062330;
+    text-transform: uppercase;
+  }
+  #temFelt{
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+    color:#011823;
+    text-transform: uppercase;
+  }
+  #tempMax, #tempMin, #humidity, #pressure, #seaLevel, #visibility{
+    position: relative;
+    top: -45px;
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(21, 10, 73);
+    text-transform: uppercase;
+  }
+
+  #btnBack{
+    width: 50px;
+    position: absolute;
+    left: 0;
+  }
+
+  .positionTop{
+    position: relative;
+    top: -60px;
+    #titleForTable{
+      margin: 0;
+      font-size: 24px;
+    }
+    hr{
+      color: cornsilk
+    }
+    table, tr, th, td{
+      table-layout: fixed;
+      width: 100%;
+      border-collapse: collapse;
+      border: 3px solid rgb(112, 107, 107);
+      th{
+        color:rgb(13, 13, 61)
+      }
+      tr:hover > td{
+        background-color:rgba(207, 225, 228, 0.3)
+      }
+    }
+  }
+}
